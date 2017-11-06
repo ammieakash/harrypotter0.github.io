@@ -343,6 +343,7 @@ footer {
     background-size: cover;
     padding: 15px;
     overflow: hidden;
+    z-index: -1;
 }
 
 #lead-content {
@@ -987,4 +988,8 @@ footer {
         }
     }
 
+}
+
+.github-fork-ribbon.right-top:before {
+    background-color: #f80;
 }
